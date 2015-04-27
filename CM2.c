@@ -41,7 +41,7 @@ void Delay_ms(d)
 }
 
 
-void number(unsigned char m) //print symbol 
+void num(unsigned char m) //print symbol 
 {
 	if(m=='+')
 	{
