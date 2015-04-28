@@ -1,7 +1,8 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #define F_CPU 8000000UL
-int i = 3000
+int i = 300
+int j = 400
 
 void Timer_delay_ms(unsigned char d){
 int j;
